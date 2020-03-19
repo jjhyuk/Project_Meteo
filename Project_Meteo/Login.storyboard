@@ -623,7 +623,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Fzy-Si-HXC"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="Cart" selectedImage="Cart_select" id="0bn-Re-X8j"/>
+                    <tabBarItem key="tabBarItem" title="" image="Add" selectedImage="Add_select" id="0bn-Re-X8j"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ggl-UK-TPM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -663,8 +663,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Cart" width="40" height="40"/>
-        <image name="Cart_select" width="32" height="32"/>
+        <image name="Add" width="36" height="36.5"/>
+        <image name="Add_select" width="36" height="36.5"/>
         <image name="FacebookLogo" width="35" height="35"/>
         <image name="GoogleLogo" width="35" height="35"/>
         <image name="Group" width="30" height="30"/>
