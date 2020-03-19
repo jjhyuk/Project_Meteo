@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		944DF33B242269E900583D0B /* facebookLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 944DF337242269E900583D0B /* facebookLogo@2x.png */; };
 		944DF33E24226D2F00583D0B /* googleLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 944DF33C24226D2E00583D0B /* googleLogo@3x.png */; };
 		944DF33F24226D2F00583D0B /* facebookLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 944DF33D24226D2E00583D0B /* facebookLogo@3x.png */; };
+		944DF38A2423A31B00583D0B /* DesignableTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944DF3892423A31B00583D0B /* DesignableTabBar.swift */; };
 		94C7B82C241BCCDF0005182F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C7B82B241BCCDF0005182F /* AppDelegate.swift */; };
 		94C7B830241BCCDF0005182F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C7B82F241BCCDF0005182F /* LoginViewController.swift */; };
 		94C7B833241BCCDF0005182F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C7B831241BCCDF0005182F /* Main.storyboard */; };
@@ -62,6 +63,7 @@
 		944DF337242269E900583D0B /* facebookLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebookLogo@2x.png"; sourceTree = "<group>"; };
 		944DF33C24226D2E00583D0B /* googleLogo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "googleLogo@3x.png"; sourceTree = "<group>"; };
 		944DF33D24226D2E00583D0B /* facebookLogo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebookLogo@3x.png"; sourceTree = "<group>"; };
+		944DF3892423A31B00583D0B /* DesignableTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTabBar.swift; sourceTree = "<group>"; };
 		94C7B828241BCCDF0005182F /* Project_Meteo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project_Meteo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C7B82B241BCCDF0005182F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94C7B82F241BCCDF0005182F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 				94C7B863241E72AC0005182F /* DesignableUITextField.swift */,
 				94C7B8652420EC1A0005182F /* DesignableUIButton.swift */,
 				94C7B8702420FBFD0005182F /* DesignableUILabel.swift */,
+				944DF3892423A31B00583D0B /* DesignableTabBar.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -231,7 +234,6 @@
 				94C7B824241BCCDF0005182F /* Sources */,
 				94C7B825241BCCDF0005182F /* Frameworks */,
 				94C7B826241BCCDF0005182F /* Resources */,
-				78733D64FCE0597A472BAD55 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,7 +252,6 @@
 				94C7B83D241BCCE10005182F /* Sources */,
 				94C7B83E241BCCE10005182F /* Frameworks */,
 				94C7B83F241BCCE10005182F /* Resources */,
-				2AE256512DDC6AF8AA97E4B6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,7 +271,6 @@
 				94C7B848241BCCE10005182F /* Sources */,
 				94C7B849241BCCE10005182F /* Frameworks */,
 				94C7B84A241BCCE10005182F /* Resources */,
-				3E4C8C37096D350FBE349EAC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -384,57 +384,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2AE256512DDC6AF8AA97E4B6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Project_MeteoTests/Pods-Project_MeteoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Project_MeteoTests/Pods-Project_MeteoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Project_MeteoTests/Pods-Project_MeteoTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3E4C8C37096D350FBE349EAC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Project_Meteo-Project_MeteoUITests/Pods-Project_Meteo-Project_MeteoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Project_Meteo-Project_MeteoUITests/Pods-Project_Meteo-Project_MeteoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Project_Meteo-Project_MeteoUITests/Pods-Project_Meteo-Project_MeteoUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		78733D64FCE0597A472BAD55 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Project_Meteo/Pods-Project_Meteo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Project_Meteo/Pods-Project_Meteo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Project_Meteo/Pods-Project_Meteo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		87AC2FFB736236183D821507 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -488,6 +437,7 @@
 			files = (
 				94C7B864241E72AC0005182F /* DesignableUITextField.swift in Sources */,
 				94C7B8662420EC1A0005182F /* DesignableUIButton.swift in Sources */,
+				944DF38A2423A31B00583D0B /* DesignableTabBar.swift in Sources */,
 				94C7B830241BCCDF0005182F /* LoginViewController.swift in Sources */,
 				94C7B82C241BCCDF0005182F /* AppDelegate.swift in Sources */,
 				94C7B836241BCCDF0005182F /* Project_Meteo.xcdatamodeld in Sources */,

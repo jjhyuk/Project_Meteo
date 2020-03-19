@@ -361,6 +361,22 @@
             </objects>
             <point key="canvasLocation" x="1010" y="-557"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="O9K-Ee-xp2">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" modalPresentationStyle="fullScreen" id="q47-HD-MHK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4K4-fa-fSE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="rFj-eY-Nte"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="Home" selectedImage="Home_select" springLoaded="YES" id="VZs-Ec-CDz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Gn-sE-ZIZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2871" y="-1128"/>
+        </scene>
         <!--Login View Controller-->
         <scene sceneID="lxm-rX-4kC">
             <objects>
@@ -457,6 +473,9 @@
                                         <color key="value" red="0.44512546060000002" green="0.74874746800000003" blue="0.98042148350000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="odl-g8-aex" kind="show" id="e49-OT-HGU"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Ch-zh-QDI">
                                 <rect key="frame" x="12" y="548" width="134" height="2"/>
@@ -551,10 +570,111 @@
             </objects>
             <point key="canvasLocation" x="169.56521739130437" y="-557.14285714285711"/>
         </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="52k-Oa-VPM">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="odl-g8-aex" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="PYQ-Rj-1Ix"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ben-53-fZ2" customClass="DesignableTabBar" customModule="Project_Meteo" customModuleProvider="target">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.44512546060000002" green="0.74874746800000003" blue="0.98042148350000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBar>
+                    <connections>
+                        <segue destination="q47-HD-MHK" kind="relationship" relationship="viewControllers" id="TVp-8W-PEE"/>
+                        <segue destination="uXf-mJ-dxP" kind="relationship" relationship="viewControllers" id="v8F-PO-7dt"/>
+                        <segue destination="fMN-Yt-ZXw" kind="relationship" relationship="viewControllers" id="C8Q-Px-5Ym"/>
+                        <segue destination="SJr-3x-RJa" kind="relationship" relationship="viewControllers" id="WRD-FK-h6w"/>
+                        <segue destination="OjA-VJ-BhF" kind="relationship" relationship="viewControllers" id="e3i-yd-lgY"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rOP-vV-zi4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1920.289855072464" y="-547.09821428571422"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1Or-y7-Jip">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" modalPresentationStyle="fullScreen" id="uXf-mJ-dxP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Igm-nv-yYf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="T52-dK-QQL"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="Search" selectedImage="Search_select" id="88g-kX-hBr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UGE-AB-1ne" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2852" y="-412"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uTV-o6-WIp">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" modalPresentationStyle="fullScreen" id="fMN-Yt-ZXw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ptz-lz-aPu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Fzy-Si-HXC"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="Cart" selectedImage="Cart_select" id="0bn-Re-X8j"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ggl-UK-TPM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2542" y="326"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dGk-Ru-WDW">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" modalPresentationStyle="fullScreen" id="SJr-3x-RJa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZB0-g6-UPj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="EsS-Rr-LQe"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="Group" selectedImage="Group_select" id="tNw-ag-KSV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t6W-vH-lrw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3777" y="-157"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pRJ-7Z-F9c">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" modalPresentationStyle="fullScreen" id="OjA-VJ-BhF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rca-uK-Jx2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="M7U-4z-kev"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="Offer" selectedImage="Offer_select" id="EHg-PU-6wC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="981-ks-vKq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3700" y="-1035"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Cart" width="40" height="40"/>
+        <image name="Cart_select" width="32" height="32"/>
         <image name="FacebookLogo" width="35" height="35"/>
         <image name="GoogleLogo" width="35" height="35"/>
+        <image name="Group" width="30" height="30"/>
+        <image name="Group_select" width="30" height="30"/>
+        <image name="Home" width="40" height="40"/>
+        <image name="Home_select" width="32" height="32"/>
+        <image name="Offer" width="40" height="40"/>
+        <image name="Offer_select" width="32" height="32"/>
+        <image name="Search" width="40" height="40"/>
+        <image name="Search_select" width="40" height="40"/>
         <image name="ellipsis" catalog="system" width="64" height="18"/>
         <image name="facebookLogo.png" width="35" height="35"/>
         <image name="googleLogo.png" width="35" height="35"/>
