@@ -15,6 +15,10 @@
 		944DF33E24226D2F00583D0B /* googleLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 944DF33C24226D2E00583D0B /* googleLogo@3x.png */; };
 		944DF33F24226D2F00583D0B /* facebookLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 944DF33D24226D2E00583D0B /* facebookLogo@3x.png */; };
 		944DF38A2423A31B00583D0B /* DesignableTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944DF3892423A31B00583D0B /* DesignableTabBar.swift */; };
+		944DF38C2424EB4900583D0B /* DesignableNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944DF38B2424EB4900583D0B /* DesignableNavigationBar.swift */; };
+		944DF38E242726B600583D0B /* DesignableSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944DF38D242726B600583D0B /* DesignableSearchBar.swift */; };
+		944DF3D124278A2800583D0B /* DesignableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944DF3D024278A2800583D0B /* DesignableTableView.swift */; };
+		944DF3D32427A75000583D0B /* DesignableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944DF3D22427A75000583D0B /* DesignableTableViewCell.swift */; };
 		94C7B82C241BCCDF0005182F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C7B82B241BCCDF0005182F /* AppDelegate.swift */; };
 		94C7B830241BCCDF0005182F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C7B82F241BCCDF0005182F /* LoginViewController.swift */; };
 		94C7B833241BCCDF0005182F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C7B831241BCCDF0005182F /* Main.storyboard */; };
@@ -64,6 +68,10 @@
 		944DF33C24226D2E00583D0B /* googleLogo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "googleLogo@3x.png"; sourceTree = "<group>"; };
 		944DF33D24226D2E00583D0B /* facebookLogo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebookLogo@3x.png"; sourceTree = "<group>"; };
 		944DF3892423A31B00583D0B /* DesignableTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTabBar.swift; sourceTree = "<group>"; };
+		944DF38B2424EB4900583D0B /* DesignableNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableNavigationBar.swift; sourceTree = "<group>"; };
+		944DF38D242726B600583D0B /* DesignableSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableSearchBar.swift; sourceTree = "<group>"; };
+		944DF3D024278A2800583D0B /* DesignableTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTableView.swift; sourceTree = "<group>"; };
+		944DF3D22427A75000583D0B /* DesignableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTableViewCell.swift; sourceTree = "<group>"; };
 		94C7B828241BCCDF0005182F /* Project_Meteo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project_Meteo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C7B82B241BCCDF0005182F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94C7B82F241BCCDF0005182F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -193,6 +201,10 @@
 				94C7B8652420EC1A0005182F /* DesignableUIButton.swift */,
 				94C7B8702420FBFD0005182F /* DesignableUILabel.swift */,
 				944DF3892423A31B00583D0B /* DesignableTabBar.swift */,
+				944DF38B2424EB4900583D0B /* DesignableNavigationBar.swift */,
+				944DF38D242726B600583D0B /* DesignableSearchBar.swift */,
+				944DF3D024278A2800583D0B /* DesignableTableView.swift */,
+				944DF3D22427A75000583D0B /* DesignableTableViewCell.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -436,12 +448,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				94C7B864241E72AC0005182F /* DesignableUITextField.swift in Sources */,
+				944DF3D124278A2800583D0B /* DesignableTableView.swift in Sources */,
 				94C7B8662420EC1A0005182F /* DesignableUIButton.swift in Sources */,
 				944DF38A2423A31B00583D0B /* DesignableTabBar.swift in Sources */,
+				944DF38E242726B600583D0B /* DesignableSearchBar.swift in Sources */,
 				94C7B830241BCCDF0005182F /* LoginViewController.swift in Sources */,
+				944DF38C2424EB4900583D0B /* DesignableNavigationBar.swift in Sources */,
 				94C7B82C241BCCDF0005182F /* AppDelegate.swift in Sources */,
 				94C7B836241BCCDF0005182F /* Project_Meteo.xcdatamodeld in Sources */,
 				94C7B8712420FBFD0005182F /* DesignableUILabel.swift in Sources */,
+				944DF3D32427A75000583D0B /* DesignableTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
