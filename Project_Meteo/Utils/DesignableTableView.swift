@@ -24,7 +24,4 @@ class DesignableTableView:UITableView {
             return isHorizontal
         }
     }
-    
-    
-    
 }

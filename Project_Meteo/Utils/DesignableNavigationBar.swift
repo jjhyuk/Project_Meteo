@@ -14,12 +14,12 @@ class DesignableNavigationBar: UINavigationBar
 {   
     
     
-    @IBInspectable var barHeight: CGFloat {
-        set{
-            frame = bounds
-        }
+    @IBInspectable var hiddenShadow:Bool {
         get{
-            return frame.height
+            return hiddenShadow
+        }
+        set{
+            shadowImage = UIImage()
         }
     }
     

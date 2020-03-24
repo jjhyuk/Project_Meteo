@@ -11,6 +11,9 @@ import UIKit
 
 @IBDesignable
 class DesignableTableViewCell:UITableViewCell {
+
+    @IBOutlet weak var iconImage: UIImageView!
+    @IBOutlet weak var iconTitle: UILabel!
     
     @IBInspectable var isHorizontal: Int {
         set{
