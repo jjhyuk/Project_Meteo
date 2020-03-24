@@ -12,9 +12,9 @@ import UIKit
 @IBDesignable
 class DesignableTableView:UITableView {
     
-    @IBInspectable var isHorizontal: Int {
+    @IBInspectable var isHorizontal: Bool {
         set{
-            if newValue == 1 {
+            if newValue == true {
                 let orginFrame = frame
                 transform = CGAffineTransform(rotationAngle: -CGFloat(M_PI_2))
                 frame = orginFrame
