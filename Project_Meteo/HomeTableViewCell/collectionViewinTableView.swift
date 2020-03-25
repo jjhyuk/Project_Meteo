@@ -43,7 +43,7 @@ extension collectionViewinTableView: UICollectionViewDelegate, UICollectionViewD
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: UIScreen.main.bounds.size.width/2 - 20, height: UIScreen.main.bounds.size.height/3)
+        return CGSize(width: UIScreen.main.bounds.size.width/2 - 20, height: UIScreen.main.bounds.size.height/3 - 10)
     }
     
 }
