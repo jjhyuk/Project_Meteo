@@ -21,7 +21,7 @@ class ShoppingViewController:UIViewController {
         tableView.delegate = self;
         tableView.dataSource = self;
         
-        gestureSetup()
+        //gestureSetup()
     }
 }
 
@@ -50,7 +50,7 @@ extension ShoppingViewController:UITableViewDelegate, UITableViewDataSource
         else {
             let cell = tableView.dequeueReusableCell(withIdentifier: "collectionViewCell") as! collectionViewinTableView
             
-            tableView.rowHeight = 634
+            tableView.rowHeight = UIScreen.main.bounds.size.height/3 * 2 + 20
             return cell
         }
     }

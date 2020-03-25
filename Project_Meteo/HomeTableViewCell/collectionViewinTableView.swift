@@ -24,10 +24,10 @@ class collectionViewinTableView: UITableViewCell {
     }
 }
 
-extension collectionViewinTableView: UICollectionViewDelegate, UICollectionViewDataSource {
+extension collectionViewinTableView: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 6;
+        return 4;
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -42,5 +42,8 @@ extension collectionViewinTableView: UICollectionViewDelegate, UICollectionViewD
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: UIScreen.main.bounds.size.width/2 - 20, height: UIScreen.main.bounds.size.height/3)
+    }
     
 }

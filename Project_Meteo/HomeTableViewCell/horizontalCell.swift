@@ -36,7 +36,7 @@ extension horizontalCell:UITableViewDataSource, UITableViewDelegate {
         
         cell.iconImage.image = UIImage(named: "Add")
         cell.iconTitle.text = "Test"
-        
+        cell.frame = CGRect(x: 0, y: 0, width: 108, height: 108)
         return cell
     }
     
