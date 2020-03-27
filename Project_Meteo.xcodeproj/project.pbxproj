@@ -11,6 +11,7 @@
 		59B9726C6506E880B9685D07 /* Pods_Project_Meteo_Project_MeteoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91A98233FD9AE5ACEB5DE71 /* Pods_Project_Meteo_Project_MeteoUITests.framework */; };
 		940A8112242A526800BA61F4 /* collectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940A8111242A526800BA61F4 /* collectionViewCell.swift */; };
 		940A8114242A53B600BA61F4 /* collectionViewinTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940A8113242A53B600BA61F4 /* collectionViewinTableView.swift */; };
+		942ADD0F242E44A300823F10 /* CopyEudinyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942ADD0E242E44A300823F10 /* CopyEudinyTableViewController.swift */; };
 		944DF333242263B700583D0B /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944DF332242263B700583D0B /* SignIn.storyboard */; };
 		944DF33A242269E900583D0B /* googleLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 944DF336242269E900583D0B /* googleLogo@2x.png */; };
 		944DF33B242269E900583D0B /* facebookLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 944DF337242269E900583D0B /* facebookLogo@2x.png */; };
@@ -69,6 +70,7 @@
 		78341E9AAF3844458A642B75 /* Pods_Project_Meteo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project_Meteo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		940A8111242A526800BA61F4 /* collectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewCell.swift; sourceTree = "<group>"; };
 		940A8113242A53B600BA61F4 /* collectionViewinTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewinTableView.swift; sourceTree = "<group>"; };
+		942ADD0E242E44A300823F10 /* CopyEudinyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyEudinyTableViewController.swift; sourceTree = "<group>"; };
 		944DF332242263B700583D0B /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 		944DF336242269E900583D0B /* googleLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "googleLogo@2x.png"; sourceTree = "<group>"; };
 		944DF337242269E900583D0B /* facebookLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebookLogo@2x.png"; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 				94C7B860241E6B4C0005182F /* Login.storyboard */,
 				944DF332242263B700583D0B /* SignIn.storyboard */,
 				944DF3DC2429021700583D0B /* ShoppingViewController.swift */,
+				942ADD0E242E44A300823F10 /* CopyEudinyTableViewController.swift */,
 			);
 			path = Project_Meteo;
 			sourceTree = "<group>";
@@ -486,6 +489,7 @@
 				94C7B8712420FBFD0005182F /* DesignableUILabel.swift in Sources */,
 				940A8112242A526800BA61F4 /* collectionViewCell.swift in Sources */,
 				944DF3D32427A75000583D0B /* DesignableTableViewCell.swift in Sources */,
+				942ADD0F242E44A300823F10 /* CopyEudinyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
