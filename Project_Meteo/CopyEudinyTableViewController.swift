@@ -20,14 +20,16 @@ class CopyEudinyTableViewController: UIViewController {
     @IBOutlet weak var LabelTitle: UILabel!
     
     
-    let maxHeaderHeight: CGFloat = 328
-    let minHeaderHeight: CGFloat = 85
+    let maxHeaderHeight: CGFloat = 280
+    let minHeaderHeight: CGFloat = 96
     
     /// The last known scroll position
     var previousScrollOffset: CGFloat = 0
     
     /// The last known height of the scroll view content
     var previousScrollViewHeight: CGFloat = 0
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
