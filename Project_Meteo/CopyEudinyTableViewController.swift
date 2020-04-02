@@ -18,7 +18,7 @@ class CopyEudinyTableViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var Header: UIView!
     @IBOutlet weak var LabelTitle: UILabel!
-    
+    @IBOutlet weak var imageTest: UIImageView!
     
     let maxHeaderHeight: CGFloat = 280
     let minHeaderHeight: CGFloat = 96
@@ -36,7 +36,8 @@ class CopyEudinyTableViewController: UIViewController {
         
         self.tableView.delegate = self
         self.tableView.dataSource = self
-        
+        self.registerXib()
+        self.tableView.rowHeight = 634
         // Start with an initial value for the content size
         self.previousScrollViewHeight = self.tableView.contentSize.height
     }
@@ -55,17 +56,23 @@ extension CopyEudinyTableViewController: UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 40
+        return 10
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
-        cell.textLabel!.text = "Cell \(indexPath.row)"
+        let cell = tableView.dequeueReusableCell(withIdentifier: "pickCell", for: indexPath) as! CustomCellTableViewCell
+        
         return cell
     }
 }
 
 extension CopyEudinyTableViewController: UITableViewDelegate {
+    
+    private func registerXib() {
+        let nibName = UINib(nibName: "CustomCellTableViewCell", bundle: nil)
+        tableView.register(nibName, forCellReuseIdentifier: "pickCell")
+    }
+    
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         // Always update the previous values
         print("scrollViewDidScroll :")
@@ -178,6 +185,7 @@ extension CopyEudinyTableViewController: UITableViewDelegate {
         
         self.titleTopConstraint.constant = -openAmount + 10
         self.LabelTitle.alpha = percentage
+        
     }
     
 }

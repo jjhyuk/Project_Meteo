@@ -12,6 +12,9 @@
 		940A8112242A526800BA61F4 /* collectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940A8111242A526800BA61F4 /* collectionViewCell.swift */; };
 		940A8114242A53B600BA61F4 /* collectionViewinTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940A8113242A53B600BA61F4 /* collectionViewinTableView.swift */; };
 		942ADD0F242E44A300823F10 /* CopyEudinyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942ADD0E242E44A300823F10 /* CopyEudinyTableViewController.swift */; };
+		942ADD142434C7BC00823F10 /* CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942ADD122434C7BC00823F10 /* CustomCellTableViewCell.swift */; };
+		942ADD152434C7BC00823F10 /* CustomCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 942ADD132434C7BC00823F10 /* CustomCellTableViewCell.xib */; };
+		942ADD172434CC6500823F10 /* DesignableUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942ADD162434CC6500823F10 /* DesignableUIImageView.swift */; };
 		944DF333242263B700583D0B /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944DF332242263B700583D0B /* SignIn.storyboard */; };
 		944DF33A242269E900583D0B /* googleLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 944DF336242269E900583D0B /* googleLogo@2x.png */; };
 		944DF33B242269E900583D0B /* facebookLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 944DF337242269E900583D0B /* facebookLogo@2x.png */; };
@@ -71,6 +74,9 @@
 		940A8111242A526800BA61F4 /* collectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewCell.swift; sourceTree = "<group>"; };
 		940A8113242A53B600BA61F4 /* collectionViewinTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewinTableView.swift; sourceTree = "<group>"; };
 		942ADD0E242E44A300823F10 /* CopyEudinyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyEudinyTableViewController.swift; sourceTree = "<group>"; };
+		942ADD122434C7BC00823F10 /* CustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewCell.swift; sourceTree = "<group>"; };
+		942ADD132434C7BC00823F10 /* CustomCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCellTableViewCell.xib; sourceTree = "<group>"; };
+		942ADD162434CC6500823F10 /* DesignableUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableUIImageView.swift; sourceTree = "<group>"; };
 		944DF332242263B700583D0B /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 		944DF336242269E900583D0B /* googleLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "googleLogo@2x.png"; sourceTree = "<group>"; };
 		944DF337242269E900583D0B /* facebookLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebookLogo@2x.png"; sourceTree = "<group>"; };
@@ -197,6 +203,8 @@
 				944DF332242263B700583D0B /* SignIn.storyboard */,
 				944DF3DC2429021700583D0B /* ShoppingViewController.swift */,
 				942ADD0E242E44A300823F10 /* CopyEudinyTableViewController.swift */,
+				942ADD122434C7BC00823F10 /* CustomCellTableViewCell.swift */,
+				942ADD132434C7BC00823F10 /* CustomCellTableViewCell.xib */,
 			);
 			path = Project_Meteo;
 			sourceTree = "<group>";
@@ -231,6 +239,7 @@
 				944DF38D242726B600583D0B /* DesignableSearchBar.swift */,
 				944DF3D024278A2800583D0B /* DesignableTableView.swift */,
 				944DF3D22427A75000583D0B /* DesignableTableViewCell.swift */,
+				942ADD162434CC6500823F10 /* DesignableUIImageView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -377,6 +386,7 @@
 				944DF33A242269E900583D0B /* googleLogo@2x.png in Resources */,
 				94C7B838241BCCE10005182F /* Assets.xcassets in Resources */,
 				94C7B861241E6B4C0005182F /* Login.storyboard in Resources */,
+				942ADD152434C7BC00823F10 /* CustomCellTableViewCell.xib in Resources */,
 				94C7B833241BCCDF0005182F /* Main.storyboard in Resources */,
 				944DF33E24226D2F00583D0B /* googleLogo@3x.png in Resources */,
 				944DF33B242269E900583D0B /* facebookLogo@2x.png in Resources */,
@@ -487,7 +497,9 @@
 				944DF3DB2429016700583D0B /* horizontalCell.swift in Sources */,
 				944DF3D92429002200583D0B /* scrollViewCell.swift in Sources */,
 				94C7B8712420FBFD0005182F /* DesignableUILabel.swift in Sources */,
+				942ADD142434C7BC00823F10 /* CustomCellTableViewCell.swift in Sources */,
 				940A8112242A526800BA61F4 /* collectionViewCell.swift in Sources */,
+				942ADD172434CC6500823F10 /* DesignableUIImageView.swift in Sources */,
 				944DF3D32427A75000583D0B /* DesignableTableViewCell.swift in Sources */,
 				942ADD0F242E44A300823F10 /* CopyEudinyTableViewController.swift in Sources */,
 			);
