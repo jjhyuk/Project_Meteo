@@ -8,12 +8,21 @@
 
 import Foundation
 import UIKit
+import RxCocoa
+
+import RxDataSources
+
 
 class AccountViewController: UIViewController {
+    
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var headerView: UIView!
     @IBOutlet weak var settingLabel: UILabel!
+    
+    var tableViewItems = BehaviorRelay(value: [String]())
+    let disposeBag = DisposeBag()
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +30,6 @@ class AccountViewController: UIViewController {
         tableView.dataSource = self;
         
         self.tableView.contentInset.top = self.headerView.frame.size.height - 30
-        
         
     }
 }
@@ -88,9 +96,4 @@ extension AccountViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
         return 1
     }
-    
-    
-    
-    
-    
 }

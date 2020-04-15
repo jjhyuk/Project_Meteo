@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 
 @IBDesignable
 class DesignableUIImageView: UIImageView {
