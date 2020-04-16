@@ -44,8 +44,11 @@ class CopyEudinyTableViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.headerHeightConstraint.constant = self.maxHeaderHeight
-        self.updateHeader()
+        
+        //아래 코드 살릴시 탭 이동시 위쪽의 뷰가 offset과 관계없이 나오게됨
+        //self.headerHeightConstraint.constant = self.maxHeaderHeight
+        //self.updateHeader()
+        
     }
     
 }
@@ -79,6 +82,12 @@ extension CopyEudinyTableViewController: UITableViewDelegate {
         defer {
             self.previousScrollViewHeight = scrollView.contentSize.height
             self.previousScrollOffset = scrollView.contentOffset.y
+        }
+        
+        if scrollView.contentOffset.y > minHeaderHeight
+        {
+            print(scrollView.contentOffset.y)
+            return
         }
         
         let heightDiff = scrollView.contentSize.height - self.previousScrollViewHeight
