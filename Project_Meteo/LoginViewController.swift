@@ -10,6 +10,34 @@ import UIKit
 import RxCocoa
 import RxSwift
 
+//protocol ResultBuilder<T> {
+//    associatedtype T
+//
+//    func setContent(_ content:T) -> ResultBuilder
+//    func setErrorCode() -> ResultBuilder
+//    func setErrorMessage() -> ResultBuilder
+//}
+
+class TestResult<T> {
+    
+    var content:T?
+    var errorCode:Int?
+    var errorMessage:String?
+    
+
+    func setContent(content:T?) -> TestResult{
+        self.content = content
+        return self
+    }
+    func setErrorCode(errorCode:Int? = nil) -> TestResult {
+        self.errorCode = errorCode
+        return self
+    }
+    func setErrorMessage(errorMessage:String? = nil) -> TestResult {
+        self.errorMessage = errorMessage
+        return self
+    }
+}
 
 class LoginViewController: UIViewController {
     
@@ -29,20 +57,29 @@ class LoginViewController: UIViewController {
         
         bindUI()
         
-//        self.EmailLabel.rx.text
-//            .orEmpty
-//            .map(self.ChekcValidateWithEamil)
-//            .bind(to: self.siginBtn.rx.isEnabled)
-//            .disposed(by: disposeBag)
-
-//        self.EmailLabel.rx.text
-//        .orEmpty
-//        .map(self.ChekcValidateWithEamil)
-//        .subscribe(onNext: { (isTrue) in
-//                self.siginBtn.isEnabled = isTrue
-//            }
-//        )
         
+        self.withEscaping("aaaa") { (text) in
+            print(text);
+        }
+        
+        var a:Array = ["a","ab","abc"]
+        self.withGenericEscaping("thisisGeneric") { callback in
+            print(callback.content)
+            print(callback.errorCode)
+        }
+        
+        self.withGenericEscaping("aaa") { (result) in
+            print(result.content)
+        }
+        
+        var aaa : TestResult<Bool> = TestResult()
+        aaa.setContent(content: true)
+            .setErrorCode(errorCode: 2)
+            .setErrorMessage()
+        
+//        print(aaa.content)
+//        print(aaa.errorCode)
+//        print(aaa.errorMessage)
     }
     
     func bindUI() {
@@ -54,6 +91,21 @@ class LoginViewController: UIViewController {
         
         loginViewModel.IsEmailValid.bind(to: self.siginBtn.rx.isEnabled).disposed(by: disposeBag)
     }
-
+    
+    func withEscaping(_ text:String, completion: @escaping (String) -> Void) {
+        // 함수 밖에 있는 completionHandlers 배열에 해당 클로저를 저장
+        completion(text)
+    }
+    
+    func withGenericEscaping(_ text:String, completion: @escaping (TestResult<String>) -> Void) {
+        
+        var callback: TestResult<String> = TestResult()
+        callback.setContent(content: text)
+            
+        print(text)
+        
+        completion(callback)
+    }
+    
 }
 

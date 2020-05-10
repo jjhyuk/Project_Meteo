@@ -15,6 +15,8 @@
 		942ADD142434C7BC00823F10 /* CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942ADD122434C7BC00823F10 /* CustomCellTableViewCell.swift */; };
 		942ADD152434C7BC00823F10 /* CustomCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 942ADD132434C7BC00823F10 /* CustomCellTableViewCell.xib */; };
 		942ADD172434CC6500823F10 /* DesignableUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942ADD162434CC6500823F10 /* DesignableUIImageView.swift */; };
+		943AC00024681E8200B13092 /* Paris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 943ABFFF24681E8200B13092 /* Paris.jpg */; };
+		943AC00224681EF200B13092 /* IMG_1031 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 943AC00124681EF200B13092 /* IMG_1031 2.jpeg */; };
 		944DF33A242269E900583D0B /* googleLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 944DF336242269E900583D0B /* googleLogo@2x.png */; };
 		944DF33B242269E900583D0B /* facebookLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 944DF337242269E900583D0B /* facebookLogo@2x.png */; };
 		944DF33E24226D2F00583D0B /* googleLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 944DF33C24226D2E00583D0B /* googleLogo@3x.png */; };
@@ -82,6 +84,8 @@
 		942ADD122434C7BC00823F10 /* CustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewCell.swift; sourceTree = "<group>"; };
 		942ADD132434C7BC00823F10 /* CustomCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCellTableViewCell.xib; sourceTree = "<group>"; };
 		942ADD162434CC6500823F10 /* DesignableUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableUIImageView.swift; sourceTree = "<group>"; };
+		943ABFFF24681E8200B13092 /* Paris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Paris.jpg; sourceTree = "<group>"; };
+		943AC00124681EF200B13092 /* IMG_1031 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_1031 2.jpeg"; sourceTree = "<group>"; };
 		944DF336242269E900583D0B /* googleLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "googleLogo@2x.png"; sourceTree = "<group>"; };
 		944DF337242269E900583D0B /* facebookLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebookLogo@2x.png"; sourceTree = "<group>"; };
 		944DF33C24226D2E00583D0B /* googleLogo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "googleLogo@3x.png"; sourceTree = "<group>"; };
@@ -175,6 +179,15 @@
 			path = HomeTableViewCell;
 			sourceTree = "<group>";
 		};
+		943ABFFE24681E7800B13092 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				943ABFFF24681E8200B13092 /* Paris.jpg */,
+				943AC00124681EF200B13092 /* IMG_1031 2.jpeg */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		94A7CA8E243F69B300B2F396 /* Account */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +224,7 @@
 		94C7B82A241BCCDF0005182F /* Project_Meteo */ = {
 			isa = PBXGroup;
 			children = (
+				943ABFFE24681E7800B13092 /* Image */,
 				940A8115242A693500BA61F4 /* HomeTableViewCell */,
 				94C7B862241E72990005182F /* Utils */,
 				94C7B82B241BCCDF0005182F /* AppDelegate.swift */,
@@ -407,6 +421,7 @@
 			files = (
 				94C7B86B2420F80C0005182F /* facebookLogo.png in Resources */,
 				94C7B83B241BCCE10005182F /* LaunchScreen.storyboard in Resources */,
+				943AC00224681EF200B13092 /* IMG_1031 2.jpeg in Resources */,
 				944DF33F24226D2F00583D0B /* facebookLogo@3x.png in Resources */,
 				94C7B86A2420F80C0005182F /* googleLogo.png in Resources */,
 				94C7B85F241E6B2D0005182F /* AfterLaunchScreen.storyboard in Resources */,
@@ -415,6 +430,7 @@
 				94C7B861241E6B4C0005182F /* Login.storyboard in Resources */,
 				942ADD152434C7BC00823F10 /* CustomCellTableViewCell.xib in Resources */,
 				94C7B833241BCCDF0005182F /* Main.storyboard in Resources */,
+				943AC00024681E8200B13092 /* Paris.jpg in Resources */,
 				944DF33E24226D2F00583D0B /* googleLogo@3x.png in Resources */,
 				944DF33B242269E900583D0B /* facebookLogo@2x.png in Resources */,
 			);
