@@ -5,5 +5,5 @@
 # StretchView 만들기
 ![](StretchView.gif)
 
-#SettingView 
+# SettingView 
 ![](SettingView.gif)
