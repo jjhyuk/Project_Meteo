@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-Project_Meteo-Project_MeteoUITests/Pods-Project_Meteo-Project_MeteoUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework
 ${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
 ${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework

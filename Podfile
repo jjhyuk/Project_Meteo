@@ -8,6 +8,9 @@ target 'Project_Meteo' do
   pod 'RxDataSources', '~> 4.0'
   pod 'RxCocoa', '~> 5'
   
+#  pod 'Moya', '~> 14.0'
+#  pod 'Moya/RxSwift', '~> 14.0'
+  pod 'Alamofire', '~> 5.2'
   # Pods for Project_Meteo
 
   target 'Project_MeteoTests' do
