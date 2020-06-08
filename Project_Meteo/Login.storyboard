@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DNI-Sg-GTF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DNI-Sg-GTF">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -36,7 +36,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" placeholder="Name" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="yMQ-nn-IW3" customClass="DesignableUITextField" customModule="Project_Meteo" customModuleProvider="target">
-                                <rect key="frame" x="34" y="371" width="342" height="46"/>
+                                <rect key="frame" x="34" y="371" width="341" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText"/>
@@ -61,7 +61,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" placeholder="Email" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="sOX-Zi-uy9" customClass="DesignableUITextField" customModule="Project_Meteo" customModuleProvider="target">
-                                <rect key="frame" x="34" y="426" width="342" height="47"/>
+                                <rect key="frame" x="34" y="426" width="341" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText"/>
@@ -86,7 +86,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" placeholder="Password" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="WVQ-5Y-7dh" customClass="DesignableUITextField" customModule="Project_Meteo" customModuleProvider="target">
-                                <rect key="frame" x="34" y="481" width="342" height="49"/>
+                                <rect key="frame" x="34" y="481" width="341" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText"/>
@@ -111,7 +111,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" placeholder="Password Again" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="CiA-lL-1cn" customClass="DesignableUITextField" customModule="Project_Meteo" customModuleProvider="target">
-                                <rect key="frame" x="34" y="537" width="342" height="49"/>
+                                <rect key="frame" x="34" y="537" width="341" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText"/>
@@ -136,7 +136,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Hd-Cn-0Es" customClass="DesignableUIButton" customModule="Project_Meteo" customModuleProvider="target">
-                                <rect key="frame" x="34" y="600" width="342" height="59"/>
+                                <rect key="frame" x="34" y="600" width="341" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.44512546060000002" green="0.74874746800000003" blue="0.98042148350000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -310,63 +310,43 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="110"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="108" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="b9O-4G-r1o" customClass="DesignableTableView" customModule="Project_Meteo" customModuleProvider="target">
-                                                    <rect key="frame" x="1" y="2" width="414" height="108"/>
-                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                    <prototypes>
-                                                        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="horizontal_cell" id="EFc-Qg-tqa" customClass="DesignableTableViewCell" customModule="Project_Meteo" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="28" width="414" height="108"/>
-                                                            <autoresizingMask key="autoresizingMask"/>
-                                                            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EFc-Qg-tqa" id="8FY-ea-tJH">
-                                                                <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
+                                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceHorizontal="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="uhY-MP-s1E">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="110"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="5gv-Sh-dDd">
+                                                        <size key="itemSize" width="128" height="128"/>
+                                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                    </collectionViewFlowLayout>
+                                                    <cells>
+                                                        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="horizontal_cell" id="uQZ-mm-fBP">
+                                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                                                 <autoresizingMask key="autoresizingMask"/>
                                                                 <subviews>
-                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Add" translatesAutoresizingMaskIntoConstraints="NO" id="1J9-jG-gvf">
-                                                                        <rect key="frame" x="2" y="2" width="376" height="70"/>
-                                                                        <constraints>
-                                                                            <constraint firstAttribute="width" constant="70" id="O6B-Le-fPh"/>
-                                                                            <constraint firstAttribute="height" constant="70" id="n8m-Ts-CBu"/>
-                                                                        </constraints>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Paris.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5Ug-Hx-jgM">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                                                     </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="item" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9D-2f-8cq">
-                                                                        <rect key="frame" x="2" y="74" width="398" height="20"/>
-                                                                        <constraints>
-                                                                            <constraint firstAttribute="height" constant="20" id="HzW-Tj-bxs"/>
-                                                                        </constraints>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                        <nil key="highlightedColor"/>
-                                                                    </label>
                                                                 </subviews>
-                                                                <constraints>
-                                                                    <constraint firstItem="f9D-2f-8cq" firstAttribute="leading" secondItem="8FY-ea-tJH" secondAttribute="leading" constant="2" id="2pg-Jt-aXk"/>
-                                                                    <constraint firstItem="f9D-2f-8cq" firstAttribute="top" secondItem="1J9-jG-gvf" secondAttribute="bottom" constant="2" id="5cZ-Tw-2KR"/>
-                                                                    <constraint firstItem="1J9-jG-gvf" firstAttribute="leading" secondItem="8FY-ea-tJH" secondAttribute="leading" constant="2" id="6dc-Qa-7sR"/>
-                                                                    <constraint firstAttribute="trailing" secondItem="f9D-2f-8cq" secondAttribute="trailing" constant="14" id="BhA-fD-Lyc"/>
-                                                                    <constraint firstItem="1J9-jG-gvf" firstAttribute="top" secondItem="8FY-ea-tJH" secondAttribute="top" constant="2" id="GHI-tw-o31"/>
-                                                                    <constraint firstAttribute="trailing" secondItem="1J9-jG-gvf" secondAttribute="trailing" constant="36" id="XW6-Yf-Y9k"/>
-                                                                    <constraint firstItem="f9D-2f-8cq" firstAttribute="top" secondItem="1J9-jG-gvf" secondAttribute="bottom" constant="2" id="uUL-0y-MYX"/>
-                                                                </constraints>
-                                                            </tableViewCellContentView>
-                                                            <userDefinedRuntimeAttributes>
-                                                                <userDefinedRuntimeAttribute type="number" keyPath="isHorizontal">
-                                                                    <integer key="value" value="0"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                            </userDefinedRuntimeAttributes>
-                                                            <connections>
-                                                                <outlet property="iconImage" destination="1J9-jG-gvf" id="a0L-SH-5Zn"/>
-                                                                <outlet property="iconTitle" destination="f9D-2f-8cq" id="1Gn-kZ-Pa5"/>
-                                                            </connections>
-                                                        </tableViewCell>
-                                                    </prototypes>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isHorizontal" value="YES"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </tableView>
+                                                            </view>
+                                                            <constraints>
+                                                                <constraint firstAttribute="trailing" secondItem="5Ug-Hx-jgM" secondAttribute="trailing" id="59S-pz-NvA"/>
+                                                                <constraint firstItem="5Ug-Hx-jgM" firstAttribute="leading" secondItem="uQZ-mm-fBP" secondAttribute="leading" id="Lnl-wD-sGs"/>
+                                                                <constraint firstAttribute="bottom" secondItem="5Ug-Hx-jgM" secondAttribute="bottom" id="Yuo-KT-OYI"/>
+                                                                <constraint firstItem="5Ug-Hx-jgM" firstAttribute="top" secondItem="uQZ-mm-fBP" secondAttribute="top" id="j88-D3-dHN"/>
+                                                            </constraints>
+                                                            <size key="customSize" width="128" height="128"/>
+                                                        </collectionViewCell>
+                                                    </cells>
+                                                </collectionView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="tableView" destination="b9O-4G-r1o" id="HJ3-tb-8c2"/>
+                                            <outlet property="collectionView" destination="uhY-MP-s1E" id="wfF-nG-4Gy"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="collectionViewCell" rowHeight="323" id="YwM-M6-3Nj" customClass="collectionViewinTableView" customModule="Project_Meteo" customModuleProvider="target">
@@ -566,7 +546,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" placeholder="Email" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="U5R-cY-Ysq" customClass="DesignableUITextField" customModule="Project_Meteo" customModuleProvider="target">
-                                <rect key="frame" x="34" y="343" width="342" height="48"/>
+                                <rect key="frame" x="34" y="343" width="341" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText"/>
@@ -591,7 +571,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" placeholder="Password" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="4VV-BR-ghw" customClass="DesignableUITextField" customModule="Project_Meteo" customModuleProvider="target">
-                                <rect key="frame" x="34" y="399" width="342" height="47"/>
+                                <rect key="frame" x="34" y="399" width="341" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText"/>
@@ -639,7 +619,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Ch-zh-QDI">
-                                <rect key="frame" x="10" y="547" width="134" height="1"/>
+                                <rect key="frame" x="9" y="547" width="134" height="1"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
@@ -656,7 +636,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S3U-Hr-HUZ" customClass="DesignableUIButton" customModule="Project_Meteo" customModuleProvider="target">
-                                <rect key="frame" x="34" y="575" width="342" height="57"/>
+                                <rect key="frame" x="34" y="575" width="341" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
@@ -680,7 +660,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fY7-vX-J9Y" customClass="DesignableUIButton" customModule="Project_Meteo" customModuleProvider="target">
-                                <rect key="frame" x="34" y="640" width="342" height="56"/>
+                                <rect key="frame" x="34" y="640" width="341" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -1034,7 +1014,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="설정" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yo4-d8-Ynr">
-                                <rect key="frame" x="29" y="91" width="111" height="57"/>
+                                <rect key="frame" x="29" y="91" width="110" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1086,6 +1066,7 @@
         <image name="IMG_1031 2.jpeg" width="2342" height="3123"/>
         <image name="Offer" width="40" height="40"/>
         <image name="Offer_select" width="32" height="32"/>
+        <image name="Paris.jpg" width="800" height="534"/>
         <image name="Search" width="40" height="40"/>
         <image name="Search_select" width="40" height="40"/>
         <image name="ellipsis" catalog="system" width="128" height="37"/>

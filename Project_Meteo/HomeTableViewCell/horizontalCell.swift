@@ -11,7 +11,7 @@ import UIKit
 
 class horizontalCell:UITableViewCell {
     
-    @IBOutlet weak var tableView: DesignableTableView!
+    @IBOutlet weak var collectionView: UICollectionView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -19,27 +19,36 @@ class horizontalCell:UITableViewCell {
     }
     
     func setUpTable(){
-        tableView.delegate = self
-        tableView.dataSource = self
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        
+        let layout = UICollectionViewFlowLayout()
+        layout.scrollDirection = .horizontal
+        layout.itemSize = CGSize.init(width: 128, height: 128)
+        layout.sectionInset = .init(top: 0, left: 6, bottom: 0, right: 2
+        )
+        layout.minimumInteritemSpacing = 10
+        collectionView.collectionViewLayout = layout
+        
     }
     
 }
 
-extension horizontalCell:UITableViewDataSource, UITableViewDelegate {
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
-        return 5;
+extension horizontalCell:UICollectionViewDataSource, UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 20;
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "horizontal_cell", for: indexPath) as! DesignableTableViewCell
-        
-        cell.iconImage.image = UIImage(named: "Add")
-        cell.iconTitle.text = "Test"
-        cell.frame = CGRect(x: 0, y: 0, width: 108, height: 108)
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "horizontal_cell", for: indexPath)
+    
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        MeteoLog(collectionView)
+    }
     
 }
+
